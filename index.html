@@ -15,10 +15,17 @@
     console.log(str);
   }
 
+   function getCodeScanResult(str) {
+    console.log(str);
+  }
+  
   function shareImage(){
       window.zrweb_name.shareImage("https://imgedu.gmw.cn/attachement/png/site2/20210627/f44d305ea1af22426be505.png");
   }
  
+    function startCodeScan(){
+      window.zrweb_name.startCodeScan();
+  }
 </script>
 <body>
 
@@ -30,6 +37,7 @@
     
     
     <button type="button" onclick="shareImage()">图片分享</button>
+    <button type="button" onclick="startCodeScan()">扫码</button>
     
     <a href="mbb://open.mbb/openScriptDetail?id=3363">进入剧本详情</a>
   </p>
